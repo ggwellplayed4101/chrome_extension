@@ -1,0 +1,20 @@
+{
+    "manifest_version" : 3,
+    "name" : "Seymore's seemore",
+    "description": "A website navigator",
+    "version": "1.0",
+    "action": {
+        "default.pop":"popup/popup.html"
+    },
+    "icons":{
+        "16":"images/icon-16.jpg"
+    },
+    "background": {
+       "service_worker": "background.js",
+       "type": "module" 
+    },
+    "permissions": [
+        "storage"
+    ]
+
+}
